@@ -1,0 +1,12 @@
+var int x, y;
+var bool x_menor;
+x = 3;
+if 5 < x then
+x_menor = false;
+y = x**2 else
+x_menor = true;
+y = x**3
+endif;
+print(y);
+print(x_menor)
+

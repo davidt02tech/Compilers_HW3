@@ -1,0 +1,21 @@
+var int x, y;
+var bool x_menor;
+x = 4;
+y = 6;
+
+if x<2 or y<3 then
+x_menor = false;
+y = x**2 else
+x_menor = true;
+y = x**3
+endif;
+print(y);
+print(x_menor);
+
+if true and false then
+y = x**4
+else
+y = x+1000
+endif;
+print(y);
+print(true)

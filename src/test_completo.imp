@@ -1,0 +1,14 @@
+var int x, y;
+x = 10;
+
+for j: 3, x do
+    var bool condition1;
+
+    condition1 = (j < 5) and true;
+
+    if condition1 then
+        print(j**2)
+    else
+        print(j+3)
+    endif
+endfor

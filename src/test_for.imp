@@ -1,0 +1,10 @@
+var int x, y;
+x = 10;
+for j: 3,x do
+    print(j+1)
+endfor;
+
+y=15;
+for i: y,5 do
+    print(i+1)
+endfor
